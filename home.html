@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="container">
+            <table id="employees">
+                
+                <tr>
+                    
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Surname</td>
+                    <td>Email</td>
+                    <td>Phone</td>
+                    
+                </tr>
+                
+            </table>
+            <div id="form">
+                <form>
+                    <label for="name">Name</label><input type="text" id="name"> <br>
+                    <label for="surname">Surname</label><input type="text" id="surname"><br>
+                    <label for="email">Mail</label><input type="email" id="email"><br>
+                    <label for="phone">Phone</label><input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+                    <input type="button" name="addEmployee"  value="add" id="add"><br>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

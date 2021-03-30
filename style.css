@@ -1,0 +1,7 @@
+#form{
+    padding-top:10%;
+}
+
+td, tr{
+    border: 2px solid black;
+}
